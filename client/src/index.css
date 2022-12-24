@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'DM sans', sans-serif;
+  accent-color: #9333ea;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+  border-radius: .5rem;
+}
+::-webkit-scrollbar-thumb {
+  background: #9333ea;
+  background-clip: padding-box;
+  border: 5px solid transparent;
+  border-radius: 7px;
+}
+::-webkit-scrollbar-track-piece {
+  margin: .5rem;
+}
+
+::-webkit-calendar-picker-indicator {
+  color: white;
+  /* background: white; */
+  filter: invert(1);
+}
